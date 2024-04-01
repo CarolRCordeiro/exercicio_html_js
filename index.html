@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle financeiro</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+        <nav>
+            <div class="container">
+                <h1>Controle Financeiro</h1>
+                <form id="form-confirm">
+                    <label for="A"></label>
+                    <input type="number" id="valor-a" required placeholder="Valor de Entrada" />
+                    <label for="B"></b></label>
+                    <input type="number" id="valor-b" required placeholder="Valor de Saida" />
+                    <button type="submit">Calcular</button>
+                    <p class="error-message">
+                        Saldo Negativo!
+                    </p>
+                </form>
+                <p class="success-message"></p>
+            </div>
+        </nav> 
+            <script src="./main.js"></script>
+</body>
+</html>
